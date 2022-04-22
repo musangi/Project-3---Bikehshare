@@ -1,4 +1,12 @@
 .github/**
+<<<<<<< HEAD
 chicago.csv
 new_york_city.csv
 washington.csv
+||||||| 2b6a5fa
+data/.csv
+=======
+chicago.csv
+new_york_city.csv
+washington.csv
+>>>>>>> d3c9c5c17b80eed590198b514ccab2a65cb9ee0a
