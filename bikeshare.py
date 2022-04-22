@@ -207,7 +207,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_raw_data(df):
+def raw_data(df):
     """Displays 5 rows of raw data upon user request from the csv file of selected city.
 
     Args:
@@ -237,7 +237,7 @@ def main():
             view_raw_data = input('\nWould you like to view first five rows of raw data? Enter yes or no\n')
             if view_raw_data.lower() != 'yes':
                 break
-            display_raw_data(df)
+            raw_data(df)
             break
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
