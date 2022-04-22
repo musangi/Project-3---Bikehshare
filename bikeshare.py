@@ -17,7 +17,9 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
+    print ('='*65)
     print('Hello! Let\'s explore some US bikeshare data!')
+    print ('='*65)
     #Initializing an empty city variable to store city choice from user
     #You will see this repeat throughout the program
     city = ''
@@ -111,7 +113,7 @@ def load_data(city, month, day):
     return df
 
 
-def time_stats(df):
+def frequent_time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
@@ -205,7 +207,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_raw_data(df):
+def raw_data(df):
     """Displays 5 rows of raw data upon user request from the csv file of selected city.
 
     Args:
@@ -227,7 +229,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
-        time_stats(df)
+        frequent_time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
@@ -235,7 +237,7 @@ def main():
             view_raw_data = input('\nWould you like to view first five rows of raw data? Enter yes or no\n')
             if view_raw_data.lower() != 'yes':
                 break
-            display_raw_data(df)
+            raw_data(df)
             break
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
