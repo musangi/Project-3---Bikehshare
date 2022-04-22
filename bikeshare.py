@@ -17,7 +17,9 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
+    print ('='*65)
     print('Hello! Let\'s explore some US bikeshare data!')
+    print ('='*65)
     #Initializing an empty city variable to store city choice from user
     #You will see this repeat throughout the program
     city = ''
