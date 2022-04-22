@@ -14,13 +14,13 @@ To complete this project, the following software requirements apply:
 - A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
 ### Files used
-**chicago.csv** - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
+1. **chicago.csv** - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
 
-**new_york_city.csv** - Dataset containing all bikeshare information for the city of New York provided by Udacity.
+2. **new_york_city.csv** - Dataset containing all bikeshare information for the city of New York provided by Udacity.
 
-**washington.csv** - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
+3. **washington.csv** - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
 
 ### Credits
-https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
-https://stackoverflow.com/questions/60339049/weekday-name-from-a-pandas-dataframe-date-object
+1. https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
+2. https://stackoverflow.com/questions/60339049/weekday-name-from-a-pandas-dataframe-date-object
 
